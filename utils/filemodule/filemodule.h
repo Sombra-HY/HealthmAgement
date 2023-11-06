@@ -5,9 +5,11 @@
 #ifndef HEALTHMANEGEMENT_FILEMODULE_H
 #define HEALTHMANEGEMENT_FILEMODULE_H
 
-void createCSVFile(const char *fileName);
+#include "../../types/default/Registry/Registry.h"
+#include "../../types/default/List/List.h"
 
-void appendToCSV(const char *fileName, const char *data);
+int writeRegistryToCSV(const char *filename, Registry *reg);
 
+void readRegistrictADD(const char *PATH, List *list);
 
 #endif //HEALTHMANEGEMENT_FILEMODULE_H

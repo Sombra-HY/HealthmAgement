@@ -9,7 +9,7 @@
 #include "sections/Sobre/Sobre.h"
 #include "sections/cadastrar/cadastrar.h"
 #include "sections/cadastrar/utils/utils.h"
-#include "utils/filemodule/filemodule.h"
+
 
 
 int home (This *athis){
@@ -48,25 +48,9 @@ int home (This *athis){
     }
 }
 
-
-
-
 int main() {
     This* this = new_Types();
     home(this);
 
-//    char *FILE = "data.txt";
-//    createCSVFile("data.txt");
-//    appendToCSV("data.txt","VAI TOMAR NO CU");
-//
-
-//    FILE *file;
-//    file = fopen("exemplo.txt", "w");
-//    if (file == NULL) {
-//        printf("Não foi possível criar o arquivo.\n");
-//        return 1;
-//    }
-//    fclose(file); // Fecha o arquivo após o uso
-//
     return 0;
 }

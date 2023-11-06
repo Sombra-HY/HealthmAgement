@@ -45,5 +45,9 @@ add_executable(healthManegement main.c
         types/default/ABB/utils/utils.h
         utils/filemodule/filemodule.c
         utils/filemodule/filemodule.h
+        data/config.c
+        data/config.h
+        sections/Carregar-Salvar/utils/utils.c
+        sections/Carregar-Salvar/utils/utils.h
 )
 

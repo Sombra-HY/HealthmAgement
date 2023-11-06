@@ -11,7 +11,7 @@
 #include "../../../types/default/Registry/utils/utils.h"
 
 
-void Cadastrar(This* This) {
+void Cadastrar(This * This) {
     Registry *re = new_Registry();
     input("Digite seu nome:", "%s", &re->name);
     input("Digite sua idade:", "%d", &re->age);

@@ -19,9 +19,6 @@ struct tm getCurrentDate() {
 
     return *current_time;
 }
-//    *(date->day) = current_time->tm_mday;
-//    *(date->month) = current_time->tm_mon + 1;
-//    *(date->year) = current_time->tm_year + 1900;
 
 void printRegistry(Registry *myregis){
     printf("Name: %s \t ",myregis->name);
