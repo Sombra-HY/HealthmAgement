@@ -43,6 +43,7 @@ void readRegistrictADD(const char *PATH, List *list) {
         sscanf(res,"%d",&re->age);
         res = strtok(NULL,",");
 
+
         sscanf(res, "%s", &re->rg);
         res = strtok(NULL,",");
 
