@@ -68,5 +68,5 @@ int main() {
 //    }
 //    fclose(file); // Fecha o arquivo após o uso
 //
-    return 1;
+    return 0;
 }
