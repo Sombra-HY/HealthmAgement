@@ -16,5 +16,6 @@ void printar_todos_Pacientes(This* aThis);
 void atualizar_dados(This* aThis);
 
 void Remover_paciente(This* aThis);
+void LimparLista(This * This);
 
 #endif //HEALTHMANEGEMENT_UTILS_H

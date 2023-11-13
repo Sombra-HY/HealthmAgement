@@ -10,6 +10,11 @@
 #include "../../../utils/input/input.h"
 #include "../../../types/default/Registry/utils/utils.h"
 
+void LimparLista(This * This){
+    This->lista = new_List();
+}
+
+
 
 void Cadastrar(This * This) {
     Registry *re = new_Registry();

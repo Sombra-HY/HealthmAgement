@@ -15,6 +15,7 @@ void salvarFile(This *aThis){
     while (current != NULL) {
         re = current->dados;
         writeRegistryToCSV(PATH,re);
+        re->printRegistry(re);
         current = current->next;
     }
 }

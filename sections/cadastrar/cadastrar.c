@@ -20,7 +20,8 @@ void Cadastros(This* aThis){
                "3 - Mostrar lista completa \n"
                "4 - Atualizar dados de paciente\n"
                "5 - Remover paciente\n"
-               "6 - Voltar para o Menu \n:");
+               "6 - Limpar Lista\n"
+               "7 - Voltar para o Menu \n:");
 
         scanf("%d",&selector);
         clear();
@@ -41,6 +42,9 @@ void Cadastros(This* aThis){
                 Remover_paciente(aThis);
                 continue;
             case 6:
+                LimparLista(aThis);
+                continue;
+            case 7:
                 home(aThis);
                 continue;
             default:

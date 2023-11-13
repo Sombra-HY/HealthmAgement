@@ -3,7 +3,43 @@
 #include "../List.h"
 
 //
-// Created by lsomb on 04/11/2023.
+// Created bchar *readFileToString(const char *filename) {
+//    // Abre o arquivo para leitura
+//    FILE *arquivo;
+//    arquivo = fopen(filename, "r");
+//
+//    // Verifica se o arquivo foi aberto com sucesso
+//    if (arquivo == NULL) {
+//        printf("Erro ao abrir o arquivo.\n");
+//        return NULL; // Retorna NULL em caso de erro
+//    }
+//
+//    // Move o ponteiro de posição para o final do arquivo para obter o tamanho
+//    fseek(arquivo, 0, SEEK_END);
+//    long tamanho = ftell(arquivo);
+//
+//    // Move o ponteiro de posição de volta para o início do arquivo
+//    fseek(arquivo, 0, SEEK_SET);
+//
+//    // Aloca memória para armazenar o conteúdo do arquivo em uma string
+//    char *conteudo = (char *)malloc(tamanho + 1);
+//
+//    // Lê o conteúdo completo do arquivo para a string
+//    fread(conteudo, 1, tamanho, arquivo);
+//
+//    // Fecha o arquivo
+//    fclose(arquivo);
+//
+//    // Remove o último caractere se for '\n'
+//    if (tamanho > 0 && conteudo[tamanho - 1] == '\n') {
+//        conteudo[tamanho - 1] = '\0';
+//    } else {
+//        // Adiciona um caractere nulo ao final da string se não houver '\n'
+//        conteudo[tamanho] = '\0';
+//    }
+//
+//    return conteudo; // Retorna a string lida do arquivo
+//}y lsomb on 04/11/2023.
 //
 
 
